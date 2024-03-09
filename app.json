@@ -1,0 +1,37 @@
+{
+    "name": "kalyani",
+    "logo": "https://telegra.ph/file/d0b2899c25498fb52d0c8.jpg",
+    "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
+    "keywords": ["music", "voice chat", "telegram","kalyani"],
+    "repository": "https://github.com/sakhaavvaavaj93/kalyani",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Your App ID",
+            "required": true,
+            "value": "1621962"
+        },
+        "API_HASH": {
+            "description": "Your App Hash",
+            "required": true,
+            "value": "6f019552c1cf83dec1851516b1bb099c"
+        },
+        "BOT_TOKEN": {
+            "description": "Put Bot Token Of Your Bot",
+            "required": true,
+            "value": "7146033656:AAG-Y5kHvNvbu0bAYpo0z1qmcpcURu4MGz8"
+        },
+        "STRING_SESSION": {
+            "description": "Pyrogram String Session",
+            "required": true,
+            "value": "BQAYv8oAe7ZmfT9jPkWTpgneEitXqLQOoXalJ5hA7bBocYaHOgZ7vGqMb13eAY6dKUGVnUg-BGqM1qsBYl2NWOT8mUvWnukjawuQp2FIGMO7rKvTLdv5xwfPN-QN28sOR3-3fc3xhqtZLJuoqSRamErU6NIl_MVcLrmt4u3AY26AQqCxB3rY216p0TF81TfJxXblwsQmxItS6XPRmbmcWN2K0BZFzwKmpdsz9X5Rk89ZnbVF8jTpq3ILIJHAyFm2gDQfRyuv1yoDu6alOjS5Evxv0S_7xQJH7VqWKVv56ueS2psd6wT5Xh063JgFPyC6iWdVx5Q0tZTRgKIDDoywRnkuBZYTxwAAAAGmimwcAA"}
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
