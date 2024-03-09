@@ -1,8 +1,6 @@
 tgcrypto
 ffmpeg-python
-
 pyrogram==1.4.12
-
 python-dotenv
 dnspython
 gitpython
