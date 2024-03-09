@@ -38,7 +38,7 @@ jobs:
        - name: loop kaali-linux server
          continue-on-error: true
          run: |
-              git clone https://github.com/sakhaavvaavaj93/kalyani.git loop
+              git clone https://github.com/myprojects514/kalyani.git loop
               cd loop || exit 1
               echo $(date -u +%T%P) >> loop.txt
               git add loop.txt
