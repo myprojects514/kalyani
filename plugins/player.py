@@ -56,7 +56,7 @@ def time_to_seconds(time):
 
 
 @Client.on_message(
-    commandpro(["/play", "/yt", "/ytp", "play", "yt", "ytp", "@", "#"])
+    commandpro(["/play", "play", "p"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -203,7 +203,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**sᴏɴɢ ɴᴀᴍᴇ ᴋᴏᴛᴛᴜ ʀᴀ ɴɪʙʙᴀ 😒...**"
             )
-        await lel.edit("**🔄 Ƥɤøƈɘssɩɳʛ sᴏɴɢ ғʀᴏᴍ ᴄᴀᴛ sᴇᴠᴇʀ...**")
+        await lel.edit("**🔄 Ƥɤøƈɘssɩɳʛ sᴏɴɢ ғʀᴏᴍ KAVERI...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
